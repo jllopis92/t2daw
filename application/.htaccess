@@ -4,3 +4,5 @@
 <IfModule !authz_core_module>
     Deny from all
 </IfModule>
+php_value auto_prepend_file D:\wamp\www\daw2\application\start_cache.php
+php_value auto_append_file D:\wamp\www\daw2\application\end_cache.php 
